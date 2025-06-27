@@ -1,0 +1,77 @@
+{
+  "navbar": {
+    "home": "Kezdőlap",
+    "trainers": "Edzők",
+    "gallery": "Galéria",
+    "contact": "Kapcsolat",
+    "prices": "Árak"
+  },
+  "hero": {
+    "title": "Edz, mint egy bajnok",
+    "subtitle": "Csatlakozz a legkeményebb MMA edzésekhez"
+  },
+  "about": {
+    "title": "Rólunk",
+    "description": "Professzionális MMA harcosokból és edzőkből álló csapat vagyunk, akik segítenek elérni a céljaidat."
+  },
+  "gallery": {
+    "title": "Galéria",
+    "description": "Nézd meg az edzéseinkről és eseményeinkről készült képeket."
+  },
+  "prices": {
+    "title": "Árak",
+    "info": "Nézd meg az edzéscsomagjainkat és árainkat."
+  },
+  "contactForm": {
+    "name": "Név",
+    "email": "Email",
+    "message": "Üzenet",
+    "submit": "Üzenet küldése"
+  },
+  "footer": {
+    "opening_hours": "Nyitvatartás",
+    "morning_training": "Reggeli edzés: (minden héten változó időpont)",
+    "saturday_training": "Szombati edzés: (minden héten változó időpont)",
+    "evening_hours": "Este Hétfő - Péntek: 18:00–20:00",
+    "closed": "Zárva",
+    "rights": "Minden jog fenntartva © Pitbull Team"
+  },
+  "links": {
+    "homepage": "/",
+    "trainers": "/edzok",
+    "gallery": "/galeria",
+    "contact": "/kapcsolat",
+    "prices": "/arak"
+  },
+  "contact": {
+    "title": "Kapcsolat",
+    "email": "Email",
+    "phone": "Telefon",
+    "facebook": "Facebook oldalunk",
+    "facebookText": "Pitbull Team Soroksár",
+    "facebookUrl": "https://www.facebook.com/pages/Soroks%C3%A0r%20Pitbull%20Team/161888670621877/",
+    "directions": "Megközelítés",
+    "byStation1": "A “Sósfürdő” megállótól 15 perc séta",
+    "lines1": [
+      "35",
+      "36",
+      "148",
+      "151"
+    ],
+    "byStation2": "A “Torontál utca H” megállótól 20 perc séta",
+    "lines2": [
+      "66",
+      "66B",
+      "66E",
+      "166",
+      "H6"
+    ],
+    "routeButton": "Útvonal",
+    "formTitle": "Írj nekünk üzenetet",
+    "formName": "Név",
+    "formEmail": "Email",
+    "formMessage": "Üzenet",
+    "formSubmit": "Küldés",
+    "formSent": "Üzeneted elküldve!"
+  }
+}

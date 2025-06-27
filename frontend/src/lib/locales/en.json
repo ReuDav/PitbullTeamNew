@@ -1,0 +1,77 @@
+{
+  "navbar": {
+    "home": "Home",
+    "trainers": "Trainers",
+    "gallery": "Gallery",
+    "contact": "Contact",
+    "prices": "Prices"
+  },
+  "hero": {
+    "title": "Train Like a Champion",
+    "subtitle": "Join the ultimate MMA training experience"
+  },
+  "about": {
+    "title": "About Us",
+    "description": "We are a team of professional MMA fighters and coaches dedicated to helping you reach your full potential."
+  },
+  "gallery": {
+    "title": "Gallery",
+    "description": "Browse through photos of our training sessions and events."
+  },
+  "prices": {
+    "title": "Prices",
+    "info": "Check out our training packages and pricing options."
+  },
+  "contactForm": {
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "submit": "Send Message"
+  },
+  "footer": {
+    "opening_hours": "Opening Hours",
+    "morning_training": "Morning training: (time varies every week)",
+    "saturday_training": "Saturday training: (time varies every week)",
+    "evening_hours": "Evening Monday - Friday: 6 PM – 8 PM",
+    "closed": "Closed",
+    "rights": "All rights reserved © Pitbull Team"
+  },
+  "links": {
+    "homepage": "/",
+    "trainers": "/trainers",
+    "gallery": "/gallery",
+    "contact": "/contact",
+    "prices": "/prices"
+  },
+  "contact": {
+    "title": "Contact",
+    "email": "Email",
+    "phone": "Phone",
+    "facebook": "Facebook page",
+    "facebookText": "Pitbull Team Soroksár",
+    "facebookUrl": "https://www.facebook.com/pages/Soroks%C3%A0r%20Pitbull%20Team/161888670621877/",
+    "directions": "How to get here",
+    "byStation1": "15-minute walk from “Sósfürdő” station",
+    "lines1": [
+      "35",
+      "36",
+      "148",
+      "151"
+    ],
+    "byStation2": "20-minute walk from “Torontál utca H” station",
+    "lines2": [
+      "66",
+      "66B",
+      "66E",
+      "166",
+      "H6"
+    ],
+    "routeButton": "Get Directions",
+    "formTitle": "Send us a message",
+    "formName": "Your name",
+    "formEmail": "Your email",
+    "formMessage": "Your message",
+    "formSubmit": "Send",
+    "formSent": "Your message has been sent!"
+  }
+}

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>http://localhost:4173/hu</loc>
+  </url>
+  <url>
+    <loc>http://localhost:4173/hu/edzok</loc>
+  </url>
+  <url>
+    <loc>http://localhost:4173/hu/galeria</loc>
+  </url>
+  <url>
+    <loc>http://localhost:4173/hu/kapcsolat</loc>
+  </url>
+  <url>
+    <loc>http://localhost:4173/hu/arak</loc>
+  </url>
+  <url>
+    <loc>http://localhost:4173/en</loc>
+  </url>
+  <url>
+    <loc>http://localhost:4173/en/trainers</loc>
+  </url>
+  <url>
+    <loc>http://localhost:4173/en/gallery</loc>
+  </url>
+  <url>
+    <loc>http://localhost:4173/en/contact</loc>
+  </url>
+  <url>
+    <loc>http://localhost:4173/en/prices</loc>
+  </url>
+</urlset>
