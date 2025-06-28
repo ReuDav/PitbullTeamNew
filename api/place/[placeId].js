@@ -3,11 +3,7 @@
 export default async function handler(req, res) {
   const { placeId } = req.query;
 
-  const isDev = process.env.NODE_ENV !== 'production';
-
-  const GOOGLE_API_KEY = isDev
-    ? import.meta?.env?.GOOGLE_MAPS_API_KEY // fejlesztéskor
-    : process.env.GOOGLE_MAPS_API_KEY;      // éles környezetben
+  const GOOGLE_API_KEY = process.env.GOOGLE_MAPS_API_KEY;
 
   if (!GOOGLE_API_KEY) {
     return res.status(500).json({ error: 'Google API kulcs hiányzik.' });
