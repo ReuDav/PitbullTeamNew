@@ -30,7 +30,7 @@
 	},
 	"dependencies": {
 		"puppeteer": "^24.11.0",
-		"rollup": "^4.44.1",
+		"rollup": "3.29.4",
 		"svelte-carousel": "^1.0.25",
 		"svelte-hamburgers": "^5.0.0",
 		"svelte-i18n": "^4.0.1",
