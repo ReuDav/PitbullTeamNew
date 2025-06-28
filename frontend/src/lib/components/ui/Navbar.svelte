@@ -155,8 +155,4 @@
 	.grid-inner {
 		overflow: hidden;
 	}
-
-	select {
-		min-width: 40px;
-	}
 </style>
