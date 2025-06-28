@@ -4,7 +4,7 @@
 	"version": "0.0.1",
 	"type": "module",
 	"engines": {
-		"node": "20.18.2"
+		"node": "20"
 	},
 	"scripts": {
 		"dev": "vite dev",
@@ -17,15 +17,16 @@
 		"lint": "prettier --check ."
 	},
 	"devDependencies": {
-		"rollup": "3.29.4",
 		"@sveltejs/adapter-node": "^5.2.12",
 		"@sveltejs/adapter-static": "^3.0.8",
+		"@sveltejs/adapter-vercel": "^5.7.2",
 		"@sveltejs/kit": "^2.16.0",
 		"@sveltejs/vite-plugin-svelte": "^5.0.0",
 		"@tailwindcss/vite": "^4.1.10",
 		"prettier": "^3.4.2",
 		"prettier-plugin-svelte": "^3.3.3",
 		"prettier-plugin-tailwindcss": "^0.6.11",
+		"rollup": "3.29.4",
 		"svelte": "^5.0.0",
 		"svelte-check": "^4.0.0",
 		"tailwindcss": "^4.1.10",

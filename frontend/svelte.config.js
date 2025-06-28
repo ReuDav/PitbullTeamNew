@@ -1,11 +1,7 @@
-import adapter from '@sveltejs/adapter-static';
+import vercel from '@sveltejs/adapter-vercel';
 
 export default {
   kit: {
-    adapter: adapter({
-      pages: 'build',
-      assets: 'build',
-      fallback: null
-    })
+    adapter: vercel(),
   }
 };
