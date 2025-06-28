@@ -1,5 +1,3 @@
-// /api/place/[placeId].js
-
 export default async function handler(req, res) {
   const { placeId } = req.query;
 
@@ -23,13 +21,11 @@ export default async function handler(req, res) {
     const data = await response.json();
 
     if (!response.ok) {
-      console.error("Google API error", data);
       return res.status(response.status).json(data);
     }
 
-    return res.status(200).json(data);
+    res.status(200).json(data);
   } catch (err) {
-    console.error("Server error:", err);
-    return res.status(500).json({ error: err.message });
+    res.status(500).json({ error: err.message });
   }
 }
