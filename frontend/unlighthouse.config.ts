@@ -1,7 +1,7 @@
 export default {
-  site: 'http://localhost:4173',
+  site: 'https://pitbull-team-new.vercel.app',
   scanner: {
     routeDiscovery: 'sitemap',
-    sitemap: ['http://localhost:4173/sitemap.xml'],
+    sitemap: ['https://pitbull-team-new.vercel.app/sitemap.xml'],
   },
 }
