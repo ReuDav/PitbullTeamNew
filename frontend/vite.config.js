@@ -1,10 +1,20 @@
 import tailwindcss from '@tailwindcss/vite';
 import { sveltekit } from '@sveltejs/kit/vite';
-import { defineConfig } from 'vite';
+import { defineConfig, loadEnv } from 'vite';
+import path from 'path';
 
-export default defineConfig({
-	plugins: [tailwindcss(), sveltekit()],
-	build: {
-		outDir: 'build'  // vagy 'public', 'output' vagy bármi más lehet, ami nálad van
-	}
+export default defineConfig(({ mode }) => {
+  // Betölti a környezeti változókat a frontend mappából (pl. ./frontend/.env)
+  const env = loadEnv(mode, path.resolve(__dirname, 'frontend'), '');
+
+  return {
+    plugins: [tailwindcss(), sveltekit()],
+    build: {
+      outDir: 'build'
+    },
+    define: {
+      'import.meta.env.VITE_GOOGLE_MAPS_PLACE_ID': JSON.stringify(env.VITE_GOOGLE_MAPS_PLACE_ID),
+      'import.meta.env.VITE_GOOGLE_MAPS_API_KEY': JSON.stringify(env.VITE_GOOGLE_MAPS_API_KEY),
+    }
+  };
 });
