@@ -8,7 +8,9 @@
   },
   "hero": {
     "title": "Train Like a Champion",
-    "subtitle": "Join the ultimate MMA training experience"
+    "subtitle": "Join the ultimate MMA training experience",
+    "cta_more": "Learn more",
+    "cta_trainers": "Trainers"
   },
   "about": {
     "title": "About Us",
@@ -28,12 +30,16 @@
     "message": "Message",
     "submit": "Send Message"
   },
+  "testimonials": {
+    "title": "What do people think about us?"
+  },
   "footer": {
+    "followus": "Follow us",
     "opening_hours": "Opening Hours",
     "morning_training": "Morning training: (time varies every week)",
     "saturday_training": "Saturday training: (time varies every week)",
-    "evening_hours": "Evening Monday - Friday: 6 PM – 8 PM",
-    "closed": "Closed",
+    "evening_hours": "Monday - Friday: 6 PM – 8 PM",
+    "closed": "Sunday: Closed",
     "rights": "All rights reserved © Pitbull Team"
   },
   "links": {

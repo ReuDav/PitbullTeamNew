@@ -4,8 +4,8 @@ import { defineConfig, loadEnv } from 'vite';
 import path from 'path';
 
 export default defineConfig(({ mode }) => {
-  // Betölti a környezeti változókat a frontend mappából (pl. ./frontend/.env)
-  const env = loadEnv(mode, path.resolve(__dirname, 'frontend'), '');
+  // Betölti a környezeti változókat a projekt gyökeréből (frontend/.env)
+  const env = loadEnv(mode, __dirname, '');
 
   return {
     plugins: [tailwindcss(), sveltekit()],

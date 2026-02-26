@@ -51,7 +51,7 @@
 	class="font text-2xl fixed top-0 z-50 flex h-28 w-full items-center justify-between bg-black/50 p-4 text-white md:bg-transparent"
 >
 	<a href="/" class="w-20">
-		<img src="https://www.pitbullteam.hu/assets/PitbullLogo-DoTHi51I.svg" alt="Logo" />
+		<img src="/PitbullLogo.svg" alt="Logo" />
 	</a>
 
 	<div

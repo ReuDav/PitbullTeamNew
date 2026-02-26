@@ -1,0 +1,83 @@
+{
+  "place": {
+    "id": "ChIJ12LHCPfpQUcR9trJzqIewBI",
+    "name": "Pit Bull team Soroksár",
+    "shortFormattedAddress": "Budapest, Bolgárföld dűlő 33"
+  },
+  "reviews": [
+    {
+      "relativePublishTimeDescription": "9 months ago",
+      "rating": 5,
+      "text": { "text": "Number one", "languageCode": "en" },
+      "originalText": { "text": "Number one", "languageCode": "en" },
+      "authorAttribution": {
+        "displayName": "Larina Beke",
+        "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocK1UBOvuyyOqLTJY8oGkJsbSpXuOUGHXdXSoPpreEonwA8pYQ=s128-c0x00000000-cc-rp-mo"
+      }
+    },
+    {
+      "relativePublishTimeDescription": "a month ago",
+      "rating": 5,
+      "text": {
+        "text": "Hello, I've heard a lot about it, I'll visit the gym sometime, in the meantime, I wish you all a beautiful day, hello.",
+        "languageCode": "en-US"
+      },
+      "originalText": {
+        "text": "Sziasztok sokat hallottam róla majd egyszer meg látogatom a edző teremet addig is gyönyörű napot is kívánok mindenkinek sziasztok.",
+        "languageCode": "hu"
+      },
+      "authorAttribution": {
+        "displayName": "Károly Hild",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVmX6tES6rjUHqcgTThzZpH6d0Z8JjIIcVyFCH-wz34hh1Nl1Q=s128-c0x00000000-cc-rp-mo"
+      }
+    },
+    {
+      "relativePublishTimeDescription": "9 months ago",
+      "rating": 5,
+      "text": {
+        "text": "Great, family-friendly gym, where beginners and pros alike can learn something new. I've been going here for 1.5 years and I still love training here, new faces always come from time to time, the trainers are attentive and helpful. I can only recommend it! 🌟🥊",
+        "languageCode": "en-US"
+      },
+      "originalText": {
+        "text": "Nagyszerű, családias legkörű edzőterem, ahol a kezdők és a profik is tudnak újat tanulni. 1.5 éve járok ide és a mai napig imádok itt edzeni, mindig jönnek új arcok időröl időre, az edzők figyelmesek és segítőkészek. Csak ajánlani tudom! 🌟🥊",
+        "languageCode": "hu"
+      },
+      "authorAttribution": {
+        "displayName": "Dávid Reucov",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUUHk7rlvFxroApkugm88KWUGZ9YE5snkJuvb2UrZ6LPSxPTajV=s128-c0x00000000-cc-rp-mo-ba3"
+      }
+    },
+    {
+      "relativePublishTimeDescription": "9 months ago",
+      "rating": 5,
+      "text": {
+        "text": "Very nice little gym, family atmosphere, hard workouts :) if I have time I'm always happy to go, thanks to the team for everything ✌️",
+        "languageCode": "en-US"
+      },
+      "originalText": {
+        "text": "Nagyon jó kis terem, családias légkör kőkemény edzések :) ha időm engedi mindig szívesen megyek köszönök mindent a csapatnak ✌️",
+        "languageCode": "hu"
+      },
+      "authorAttribution": {
+        "displayName": "Krisztián Jánóczki",
+        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUNw06MUZAIlqsB4p9JTCi5lJZEM40i1GvwHi2m4ewGirZZbCU=s128-c0x00000000-cc-rp-mo"
+      }
+    },
+    {
+      "relativePublishTimeDescription": "9 months ago",
+      "rating": 5,
+      "text": {
+        "text": "I can only recommend high-level but varied training to everyone, everyone here is very helpful and the atmosphere is great!",
+        "languageCode": "en-US"
+      },
+      "originalText": {
+        "text": "Magasszintű de változatos edzések mindenkinek csak ajánlani tudom itt mindenki nagyon segítőkész és jó a hangulat is!",
+        "languageCode": "hu"
+      },
+      "authorAttribution": {
+        "displayName": "János Tóth",
+        "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocL6bU_6EFIeYOUxwnH_febcILKi4fm-bbn3e-cHg3ekDzNtUg=s128-c0x00000000-cc-rp-mo"
+      }
+    }
+  ]
+}

@@ -1,18 +1,18 @@
 <script lang="ts">
 	import { goto } from "$app/navigation";
-	import { locale } from "svelte-i18n";
+	import { _, locale } from "svelte-i18n";
 	import { get } from "svelte/store";
 
 	let videoRef: HTMLVideoElement;
 
-	const slugMap = {
+	const slugMap: Record<"hu" | "en", Record<"contact" | "trainers", string>> = {
 		hu: {
 			contact: "kapcsolat",
 			trainers: "edzok"
 		},
 		en: {
-			kapcsolat: "contact",
-			edzok: "trainers"
+			contact: "contact",
+			trainers: "trainers"
 		}
 	};
 
@@ -24,7 +24,8 @@
 	}
 
 	function localizedPath(key: "contact" | "trainers") {
-		const lang = get(locale);
+		const current = get(locale);
+		const lang = current === "en" ? "en" : "hu";
 		const slug = slugMap[lang]?.[key] ?? key;
 		return `/${lang}/${slug}`;
 	}
@@ -32,7 +33,7 @@
 
 <div class="relative w-full min-h-screen ">
 	<video
-		class="absolute top-0 left-0 w-full h-full object-cover scale-105"
+		class="absolute top-0 left-0 w-full h-full object-cover"
 		bind:this={videoRef}
 		on:loadedmetadata={setStartTime}
 		muted
@@ -50,19 +51,20 @@
 
 	<!-- Középre igazított tartalom -->
 	<div class="relative z-20 flex flex-col items-center h-screen justify-center text-white text-center px-4">
-		<h1 class="text-4xl md:text-6xl font-bold mb-6 select-none">Pitbull Team Soroksár</h1>
+		<h1 class="text-4xl md:text-6xl font-bold mb-3 select-none">{$_('hero.title')}</h1>
+		<p class="max-w-2xl text-base md:text-xl text-white/90 mb-6 select-none">{$_('hero.subtitle')}</p>
 		<div class="flex gap-4">
 			<button
 				on:click={() => goto(localizedPath("contact"))}
 				class="bg-yellow-300 hover:bg-yellow-500 text-white px-6 py-3 rounded-2xl text-lg font-semibold shadow-lg transition-all"
 			>
-				Tudj meg többet
+				{$_('hero.cta_more')}
 			</button>
 			<button
 				on:click={() => goto(localizedPath("trainers"))}
 				class="bg-white hover:bg-gray-200 text-black px-6 py-3 rounded-2xl text-lg font-semibold shadow-lg transition-all"
 			>
-				Edzők
+				{$_('hero.cta_trainers')}
 			</button>
 		</div>
 	</div>

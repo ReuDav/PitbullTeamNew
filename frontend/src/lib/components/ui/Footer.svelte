@@ -17,18 +17,20 @@
           href="https://www.facebook.com/pages/Soroks%C3%A0r%20Pitbull%20Team/161888670621877/"
           target="_blank"
           rel="noopener"
-          class="hover:opacity-80"
+          class="social-link"
+          aria-label="Facebook"
         >
-          <img src="/icons/facebook.svg" alt="Facebook" class="h-6 w-6" />
+          <img src="/icons/facebook.svg" alt="Facebook" class="social-icon" />
         </a>
         <!-- Maps -->
         <a
           href="https://www.google.com/maps/place/Pit+Bull+team+Soroks%C3%A1r/"
           target="_blank"
           rel="noopener"
-          class="hover:opacity-80"
+          class="social-link"
+          aria-label="Google Maps"
         >
-          <img src="/icons/maps.svg" alt="Google Maps" class="h-6 w-6" />
+          <img src="/icons/maps.svg" alt="Google Maps" class="social-icon" />
         </a>
       </div>
     </div>
@@ -64,3 +66,32 @@
     </p>
   </div>
 </footer>
+
+<style>
+  /* 1.5s invert animation: black → white */
+  .social-link {
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9999px;
+    background: #ffffff;
+    transition: background-color 1.5s ease;
+  }
+
+  .social-icon {
+    width: 24px;
+    height: 24px;
+    filter: brightness(0) invert(0);
+    transition: filter 1.5s ease;
+  }
+
+  .social-link:hover {
+    background: #000000;
+  }
+
+  .social-link:hover .social-icon {
+    filter: brightness(0) invert(1);
+  }
+</style>

@@ -8,7 +8,9 @@
   },
   "hero": {
     "title": "Edz, mint egy bajnok",
-    "subtitle": "Csatlakozz a legkeményebb MMA edzésekhez"
+    "subtitle": "Csatlakozz a legkeményebb MMA edzésekhez",
+    "cta_more": "Tudj meg többet",
+    "cta_trainers": "Edzők"
   },
   "about": {
     "title": "Rólunk",
@@ -28,12 +30,16 @@
     "message": "Üzenet",
     "submit": "Üzenet küldése"
   },
+  "testimonials": {
+    "title": "Mit gondolnak rólunk?"
+  },
   "footer": {
+    "followus": "Kövess minket",
     "opening_hours": "Nyitvatartás",
     "morning_training": "Reggeli edzés: (minden héten változó időpont)",
     "saturday_training": "Szombati edzés: (minden héten változó időpont)",
     "evening_hours": "Este Hétfő - Péntek: 18:00–20:00",
-    "closed": "Zárva",
+    "closed": "Vasárnap - Zárva",
     "rights": "Minden jog fenntartva © Pitbull Team"
   },
   "links": {
