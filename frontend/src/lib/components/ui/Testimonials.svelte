@@ -89,7 +89,7 @@
     return index < rating;
   }
 </script>
-<section class="py-10">
+<section class="py-10 bg-white">
   <h2 class="title">{$_('testimonials.title')}</h2>
 {#if localizedReviews.length > 0}
   <div class="w-full max-w-screen-lg mx-auto">

@@ -79,5 +79,8 @@
     "formMessage": "Your message",
     "formSubmit": "Send",
     "formSent": "Your message has been sent!"
+  },
+  "quote": {
+    "sandor_gyorgy": "My body and soul are like a steep rock cliff; no one and nothing can break me. Once I have started, there is no turning back."
   }
 }

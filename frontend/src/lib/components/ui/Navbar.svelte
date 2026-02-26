@@ -147,7 +147,7 @@
 	</div>
 
 	<div class="relative z-50 md:hidden">
-		<Hamburger bind:open type="collapse" title="Toggle menu" />
+		<Hamburger bind:open type="collapse" title="Toggle menu" --color="white" />
 	</div>
 </header>
 
@@ -155,4 +155,5 @@
 	.grid-inner {
 		overflow: hidden;
 	}
+	
 </style>
