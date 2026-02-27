@@ -18,7 +18,19 @@
   },
   "gallery": {
     "title": "Galéria",
-    "description": "Nézd meg az edzéseinkről és eseményeinkről készült képeket."
+    "description": "Nézd meg az edzéseinkről és eseményeinkről készült képeket.",
+    "power": "Erő",
+    "speed": "Sebesség",
+    "focus": "Fókusz",
+    "grit": "Kitartás",
+    "victory": "Győzelem",
+    "beast": "Vadállat",
+    "shadow": "Árnyék",
+    "light": "Fény",
+    "flow": "Áramlás",
+    "peak": "Csúcsforma",
+    "soul": "Lélek",
+    "end": "Örökség"
   },
   "prices": {
     "title": "Árak",

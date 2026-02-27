@@ -18,7 +18,19 @@
   },
   "gallery": {
     "title": "Gallery",
-    "description": "Browse through photos of our training sessions and events."
+    "description": "Browse through photos of our training sessions and events.",
+    "power": "Power",
+    "speed": "Speed",
+    "focus": "Focus",
+    "grit": "Grit",
+    "victory": "Victory",
+    "beast": "Beast",
+    "shadow": "Shadow",
+    "light": "Light",
+    "flow": "Flow",
+    "peak": "Peak",
+    "soul": "Soul",
+    "end": "Legacy"
   },
   "prices": {
     "title": "Prices",
