@@ -35,7 +35,7 @@
 	];
 </script>
 
-<div class="container mx-auto bg-white p-4 text-center">
+<div class="container mx-auto bg-white p-4 text-center w-full">
 	<h2 class="title">{$_('gallery.title')}</h2>
 	<p class="mb-8 text-lg text-gray-600">{$_('gallery.description')}</p>
 	<div class="grid auto-rows-[300px] grid-cols-1 gap-4 lg:grid-cols-6">

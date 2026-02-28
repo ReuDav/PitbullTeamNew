@@ -48,15 +48,15 @@
 </script>
 
 <header
-	class="font text-2xl fixed top-0 z-50 flex h-28 w-full items-center justify-between bg-black/50 p-4 text-white md:bg-transparent"
+	class="font text-2xl fixed top-0 z-50 flex h-28 w-full items-center justify-between bg-gray-900 p-4 text-white"
 >
 	<a href="/" class="w-20">
-		<img src="/PitbullLogo.svg" alt="Logo" />
+		<img src="/PitbullLogo.svg" alt="Logo" width="80" />
 	</a>
 
 	<div
 		id="grid"
-		class="absolute left-0 top-28 z-50 grid w-full grid-rows-[0fr] bg-black/50 transition-[grid-template-rows] duration-500 ease-in-out md:static md:top-0 md:grid-rows-[1fr] md:bg-transparent"
+		class="absolute left-0 top-28 z-50 grid w-full grid-rows-[0fr] bg-gray-900 transition-[grid-template-rows] duration-500 ease-in-out md:static md:top-0 md:grid-rows-[1fr]"
 		class:grid-rows-[1fr]={open}
 	>
 		<div class="grid-inner">

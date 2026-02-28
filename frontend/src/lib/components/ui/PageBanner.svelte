@@ -3,7 +3,7 @@
 	export let imageUrl: string;
 </script>
 
-<section class="relative w-full lg:h-[calc(50vh_+_1.5rem)] h-[calc(25vh_+_1.5rem)] overflow-hidden flex items-center justify-center">
+<section class="mt-28 relative w-full lg:h-[calc(25vh_+_1.5rem)] h-[calc(20vh_+_1.5rem)] overflow-hidden flex items-center justify-center">
 	<!-- háttér -->
 	<div
 		class="absolute inset-0 bg-center bg-cover filter blur-sm scale-105"

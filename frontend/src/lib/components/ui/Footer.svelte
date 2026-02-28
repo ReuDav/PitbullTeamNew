@@ -6,8 +6,8 @@
   <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 px-4">
 
     <!-- Logo és rövid felhívás -->
-    <div class="flex flex-col mditems-start space-y-4 w-full">
-      <img src="/PitbullLogo.svg" alt="Pitbull Team Logo" class="h-24 w-auto md:h-16" />
+    <div class="flex flex-col items-start space-y-4 w-full">
+      <img src="/PitbullLogo.svg" alt="Pitbull Team Logo"  width="100" />
       <p class="text-sm text-gray-400">
         {$_('footer.followus')}
       </p>
