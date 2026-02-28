@@ -3,31 +3,31 @@
 
 	let images = [
 		{
-			src: '/image-1.avif',
+			src: '/image-1.webp',
 			alt: 'Boxing match',
 			class: 'lg:col-span-4 lg:row-span-2',
 			key: 'gallery.power' // Translation key
 		},
 		{
-			src: '/image-2.avif',
+			src: '/image-2.webp',
 			alt: 'Side view 1',
 			class: 'lg:col-span-2 lg:row-span-1',
 			key: 'gallery.speed'
 		},
 		{
-			src: '/image-3.avif',
+			src: '/image-3.webp',
 			alt: 'Side view 2',
 			class: 'lg:col-span-2 lg:row-span-1',
 			key: 'gallery.focus'
 		},
 		{
-			src: '/image-4.avif',
+			src: '/image-4.webp',
 			alt: 'Bottom left',
 			class: 'lg:col-span-3 lg:row-span-1',
 			key: 'gallery.grit'
 		},
 		{
-			src: '/image-5.avif',
+			src: '/image-5.webp',
 			alt: 'Bottom right',
 			class: 'lg:col-span-3 lg:row-span-1',
 			key: 'gallery.victory'

@@ -4,18 +4,18 @@
     import { onMount } from "svelte";
   
     let images = [
-      { src: 'img-1.avif', key: 'gallery.power', class: 'lg:col-span-4 lg:row-span-2' },
-      { src: 'img-2.avif', key: 'gallery.speed', class: 'lg:col-span-2 lg:row-span-1' },
-      { src: 'img-3.avif', key: 'gallery.focus', class: 'lg:col-span-2 lg:row-span-1' },
-      { src: 'img-4.avif', key: 'gallery.grit', class: 'lg:col-span-3 lg:row-span-1' },
-      { src: 'img-5.avif', key: 'gallery.victory', class: 'lg:col-span-3 lg:row-span-1' },
-      { src: 'img-6.avif', key: 'gallery.beast', class: 'lg:col-span-2 lg:row-span-2' },
-      { src: 'img-7.avif', key: 'gallery.shadow', class: 'lg:col-span-2 lg:row-span-1' },
-      { src: 'img-8.avif', key: 'gallery.light', class: 'lg:col-span-2 lg:row-span-1' },
-      { src: 'img-9.avif', key: 'gallery.flow', class: 'lg:col-span-4 lg:row-span-1' },
-      { src: 'img-10.avif', key: 'gallery.peak', class: 'lg:col-span-2 lg:row-span-1' },
-      { src: 'img-11.avif', key: 'gallery.soul', class: 'lg:col-span-3 lg:row-span-1' },
-      { src: 'img-12.avif', key: 'gallery.end', class: 'lg:col-span-1 lg:row-span-1' },
+      { src: 'img-1.webp', key: 'gallery.power', class: 'lg:col-span-4 lg:row-span-2' },
+      { src: 'img-2.webp', key: 'gallery.speed', class: 'lg:col-span-2 lg:row-span-1' },
+      { src: 'img-3.webp', key: 'gallery.focus', class: 'lg:col-span-2 lg:row-span-1' },
+      { src: 'img-4.webp', key: 'gallery.grit', class: 'lg:col-span-3 lg:row-span-1' },
+      { src: 'img-5.webp', key: 'gallery.victory', class: 'lg:col-span-3 lg:row-span-1' },
+      { src: 'img-6.webp', key: 'gallery.beast', class: 'lg:col-span-2 lg:row-span-2' },
+      { src: 'img-7.webp', key: 'gallery.shadow', class: 'lg:col-span-2 lg:row-span-1' },
+      { src: 'img-8.webp', key: 'gallery.light', class: 'lg:col-span-2 lg:row-span-1' },
+      { src: 'img-9.webp', key: 'gallery.flow', class: 'lg:col-span-4 lg:row-span-1' },
+      { src: 'img-10.webp', key: 'gallery.peak', class: 'lg:col-span-2 lg:row-span-1' },
+      { src: 'img-11.webp', key: 'gallery.soul', class: 'lg:col-span-3 lg:row-span-1' },
+      { src: 'img-12.webp', key: 'gallery.end', class: 'lg:col-span-1 lg:row-span-1' },
     ];
   
     // Svelte 5 Runes
